@@ -5,7 +5,7 @@ Installation:<br>
     2. Unzip it to any folder you like.<br>
     3. Chack if you have enough RAM by looking inside the start.bat and editting the values<br>
     4. Run start.bat<br>
-  Singleplayer:<br>
+  Multiplayer Client:<br>
     1. Install Minecraft Forge<br>
     2. Download this repo as zip.<br>
     3. Unzip the mods folder of the zip to the mods folder of your forge installation.<br>
