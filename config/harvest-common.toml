@@ -1,0 +1,12 @@
+
+#Harvest config
+[common]
+	#Harvest works on netherwart
+	netherwart = true
+	#The blacklisted crops, these can not be harvested
+	blacklist = []
+	#Consumes a seed (from the drops) to replant
+	consumeSeed = true
+	#Use the blacklist as a whitelist instead
+	whitelist = false
+

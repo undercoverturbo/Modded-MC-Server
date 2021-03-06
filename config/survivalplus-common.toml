@@ -1,0 +1,33 @@
+
+#Common config settings
+[common]
+	#Disable SurvivalPlus Pearl Gen
+	disablePearlGen = false
+	#Disable SurvivalPlus Ruby Gen
+	disableRubyGen = false
+	#Disable SurvivalPlus Tin Ore Gen
+	disableTinOreGen = false
+	#Disable SurvivalPlus Sapphire Gen
+	disableSapphireGen = false
+	#Disable Sounds Played Through sun.audio
+	disableSunAudio = false
+	#If this is enable and Biomes O' Plenty are played with, the crafting recipe for the Terrestrial Artifact can use SurvivalPlus's ruby, topaz, and sapphire. By default this is set to false as the idea of the Terrestrial Artifact is that you need to go to all BOP biomes to find the needed gems, whereas SurvivalPlus gems generate everywhere.
+	enableReplaceBOPRecipe = false
+	#Disable SurvivalPlus Topaz Gen
+	disableTopazGen = false
+	#Disable SurvivalPlus Spinel Gen
+	disableSpinelGen = false
+	#If this is set to 0 anyone can use the Wak Command. If set above 4 then it will return 4.
+	#Range: 0 ~ 4
+	opWak = 0
+	#Disable SurvivalPlus Thank You Message
+	disableThanks = false
+	#Disable SurvivalPlus Update Checker Message
+	disableUpdateCheck = false
+	#Disable SurvivalPlus Titanium Ore Gen
+	disableTitaniumOreGen = false
+	#Disable SurvivalPlus Amethyst Gen
+	disableAmethystGen = false
+	#Disable SurvivalPlus Copper Ore Gen
+	disableCopperOreGen = false
+

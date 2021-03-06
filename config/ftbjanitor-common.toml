@@ -1,0 +1,11 @@
+#Prints new tag creation in console
+logTagCreation = false
+#Prints get() calls from forge toml configs
+logTomlConfigGetters = false
+#Cache get() calls from forge toml configs. This may improve performance, but may require client restart for some things
+cacheTomlConfigGetters = false
+#Prints network errors in normal log rather than debug
+logNetworkErrors = false
+#Vanilla shrinks recipe patterns to try to optimise them, but it's sometimes breaking some modded recipes
+disableRecipeShrinking = false
+
