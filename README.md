@@ -1,8 +1,8 @@
 # Modded-MC-Server
 Installation:<br>
 * Multiplayer Server:<br>
-    1. Download this repo as zip.<br>
-    2. Unzip it to any folder you like.<br>
+    1. Download this repo as zip or clone it.<br>
+    2. If you downloaded it as a zip, unzip it to any folder you like.<br>
     3. Chack if you have enough RAM by looking inside the start.bat and editting the values<br>
     4. Run start.bat<br>
 * Multiplayer Client:<br>
