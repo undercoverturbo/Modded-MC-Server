@@ -243,7 +243,7 @@
 	# - Take regular backups of your worlds.
 	# Changes to this option are applied after a game restart.
 	# Default: false
-	disable_data_fixer_upper = false
+	disable_data_fixer_upper = true
 	# A list of mixins that should not be applied.
 	# These are the mixins that are not automatically disabled when the features that depend on them are:
 	# - AbstractOption: Required for modifying the framerate limit slider step size.
@@ -302,7 +302,7 @@
 		# Fixes mobs not being able to cross rails.
 		# This bug is reported as MC-33359: https://bugs.mojang.com/browse/MC-33359
 		# Default: true
-		fix_mobs_not_crossing_rails = true
+		fix_mobs_not_crossing_rails = false
 		# Fixes boats and players in boats not taking fall damage.
 		# This bug is reported as both MC-98160: https://bugs.mojang.com/browse/MC-98160
 		# and MC-105103: https://bugs.mojang.com/browse/MC-105103
