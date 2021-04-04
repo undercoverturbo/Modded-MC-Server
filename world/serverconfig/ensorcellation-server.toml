@@ -40,7 +40,7 @@
 		Enable = true
 
 	[Enchantments."Curse of Foolishness"]
-		#If TRUE, the Curse of Foolishness Enchantment is available for various Tools and Weapons.
+		#If TRUE, the Curse of Foolishness Enchantment is available for Helmets.
 		Enable = true
 
 	[Enchantments."Chilling Rebuke"]
@@ -311,6 +311,12 @@
 		"Effect Chance" = 20
 		#If TRUE, the Flaming Rebuke Enchantment is available for Armor, Shields, and Horse Armor.
 		Enable = true
+
+	[Enchantments.Instigating]
+		#If TRUE, the Instigating Enchantment is available for various Weapons.
+		Enable = true
+		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
+		Treasure = false
 
 [Overrides]
 

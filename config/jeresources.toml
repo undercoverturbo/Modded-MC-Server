@@ -7,4 +7,5 @@ dimensionsBlacklist = [-11]
 diyData = true
 #Range: 1 ~ 4
 itemsPerColumn = 4
+disableLootManagerReloading = false
 

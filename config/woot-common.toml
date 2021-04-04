@@ -177,6 +177,17 @@
 			#Range: 0 ~ 1000
 			l2CrusherAmount = 120
 
+		[factory.perks.laser]
+			#Percentage of ether gas to drop for laser 1 perks
+			#Range: 0 ~ 1000
+			l1LaserAmount = 100
+			#Percentage of ether gas to drop for laser 2 perks
+			#Range: 0 ~ 1000
+			l2LaserAmount = 120
+			#Percentage of ether gas to drop for laser 3 perks
+			#Range: 0 ~ 1000
+			l3LaserAmount = 140
+
 	[factory.premiumCell]
 		#Tank max transfer rate (mb/t per side)
 		#Range: > 1

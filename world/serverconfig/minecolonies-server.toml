@@ -34,7 +34,7 @@
 	builderplaceconstructiontape = true
 	#Should the Builder and Miner build without resources? (This also turns off what the Miner produces.) [Default: false]
 	builderinfiniteresources = false
-	#minecolonies.config.colonyloadstrictness.comment [Default: 3, min: 1, max: 15]
+	#This controls how many chunks are loaded with the "Chunk Load Colony" option. The higher this value, the less chunks will be loaded. (The innermost chunks will be loaded first.) 1 = load all claimed chunks. [Default: 3, min: 1, max: 15]
 	#Range: 1 ~ 15
 	colonyloadstrictness = 3
 	#Whether to generate supply ships and camps in loot chests. [Default: true]
@@ -100,7 +100,7 @@
 
 #All configurations related to the research system
 [research]
-	#Allows automatic and (near) instant completion of research for players in creative mode.  If false, creative players will still be able to begin researches, but will have normal progress rates. [Default: true]
+	#Allows automatic and (near) instant completion of research for players in creative mode. If false, creative players will still be able to begin researches, but will have normal progress rates. [Default: true]
 	researchcreativecompletion = true
 	#A list of items to charge players when undoing an already-completed research. 
 	researchresetcost = ["minecolonies:ancienttome:1"]
@@ -217,24 +217,18 @@
 	#Experience multiplier of the enchanter (how much more experience do they get from a citizen than they drain). [Default: 2.000000, min: 1.000000, max: 10.000000]
 	#Range: 1.0 ~ 10.0
 	enchanterexperiencemultiplier = 2.0
-	#The items and item-tags that the Florist can plant. 
-	listofplantables = ["minecraft:sunflower", "minecraft:lilac", "minecraft:rose_bush", "minecraft:peony", "minecraft:tall_grass", "minecraft:large_fern", "minecraft:fern", "biomesoplenty:small_flowers", "minecraft:small_flowers"]
 	#All diseases citizens can get. The name, how common it is, and all ingredients to cure it. 
 	diseases = ["Influenza,100,minecraft:carrot,minecraft:potato", "Measles,10,minecraft:dandelion,minecraft:kelp,minecraft:poppy", "Smallpox,1,minecraft:honey_bottle,minecraft:golden_apple"]
 	#Items consumed by citizens in the Library. 
 	configliststudyitems = ["minecraft:paper;400;100", "minecraft:book;600;10"]
 	#The possible enchantments for the enchanter. 
 	enchantments = ["1,minecraft:aqua_affinity,1,50", "1,minecraft:bane_of_arthropods,1,50", "1,minecraft:blast_protection,1,50", "1,minecraft:depth_strider,1,50", "1,minecraft:feather_falling,1,50", "1,minecraft:fire_aspect,1,50", "1,minecraft:fire_protection,1,50", "1,minecraft:flame,1,50", "1,minecraft:frost_walker,1,50", "1,minecraft:knockback,1,50", "1,minecraft:looting,1,50", "1,minecraft:power,1,50", "1,minecraft:projectile_protection,1,50", "1,minecraft:protection,1,50", "1,minecraft:punch,1,50", "1,minecraft:respiration,1,50", "1,minecraft:sharpness,1,50", "1,minecraft:smite,1,50", "1,minecraft:sweeping,1,50", "1,minecraft:unbreaking,1,50", "3,minecolonies:raider_damage_enchant,1,15", "2,minecraft:aqua_affinity,2,25", "2,minecraft:bane_of_arthropods,2,25", "2,minecraft:blast_protection,2,25", "2,minecraft:depth_strider,2,25", "2,minecraft:feather_falling,2,25", "2,minecraft:fire_aspect,2,25", "2,minecraft:fire_protection,2,25", "2,minecraft:flame,2,25", "2,minecraft:frost_walker,2,25", "2,minecraft:knockback,2,25", "2,minecraft:looting,2,25", "2,minecraft:power,2,25", "2,minecraft:projectile_protection,2,25", "2,minecraft:protection,2,25", "2,minecraft:punch,2,25", "2,minecraft:respiration,2,25", "2,minecraft:sharpness,2,25", "2,minecraft:smite,2,25", "2,minecraft:sweeping,2,25", "2,minecraft:unbreaking,2,25", "3,minecraft:aqua_affinity,3,15", "3,minecraft:bane_of_arthropods,3,15", "3,minecraft:blast_protection,3,15", "3,minecraft:depth_strider,3,15", "3,minecraft:feather_falling,3,15", "3,minecraft:fire_aspect,3,15", "3,minecraft:fire_protection,3,15", "3,minecraft:flame,3,15", "3,minecraft:frost_walker,3,15", "3,minecraft:knockback,3,15", "3,minecraft:looting,3,15", "3,minecraft:power,3,15", "3,minecraft:projectile_protection,3,15", "3,minecraft:protection,3,15", "3,minecraft:punch,3,15", "3,minecraft:respiration,3,15", "3,minecraft:sharpness,3,15", "3,minecraft:smite,3,15", "3,minecraft:sweeping,3,15", "3,minecraft:unbreaking,3,15", "4,minecraft:aqua_affinity,4,5", "4,minecraft:bane_of_arthropods,4,5", "4,minecraft:blast_protection,4,5", "4,minecraft:depth_strider,4,5", "4,minecraft:feather_falling,4,5", "4,minecraft:fire_aspect,4,5", "4,minecraft:fire_protection,4,5", "4,minecraft:flame,4,5", "4,minecraft:frost_walker,4,5", "4,minecraft:infinity,1,5", "4,minecraft:knockback,4,5", "4,minecraft:looting,4,5", "4,minecraft:power,4,5", "4,minecraft:projectile_protection,4,5", "4,minecraft:protection,4,5", "4,minecraft:punch,4,5", "4,minecraft:respiration,4,5", "4,minecraft:sharpness,4,5", "4,minecraft:smite,4,5", "4,minecraft:sweeping,4,5", "4,minecraft:unbreaking,4,5", "5,minecraft:aqua_affinity,5,1", "5,minecraft:bane_of_arthropods,5,1", "5,minecraft:blast_protection,5,1", "5,minecraft:depth_strider,5,1", "5,minecraft:feather_falling,5,1", "5,minecraft:fire_aspect,5,1", "5,minecraft:fire_protection,5,1", "5,minecraft:flame,5,1", "5,minecraft:frost_walker,5,1", "5,minecraft:infinity,1,1", "5,minecraft:knockback,5,1", "5,minecraft:looting,5,1", "5,minecraft:mending,1,1", "5,minecraft:power,5,1", "5,minecraft:projectile_protection,5,1", "5,minecraft:protection,5,1", "5,minecraft:punch,5,1", "5,minecraft:respiration,5,1", "5,minecraft:sharpness,5,1", "5,minecraft:smite,5,1", "5,minecraft:sweeping,5,1", "5,minecolonies:raider_damage_enchant,2,3", "5,minecraft:unbreaking,5,1"]
-	#List of materials a sifter can use as a mesh material, along with bonus weights 
-	siftermeshes = ["minecraft:string,0", "minecraft:flint,0.1", "minecraft:iron_ingot,0.1", "minecraft:diamond,0.1"]
-	#List of materials a Crusher can reduce and what they convert into, separated by exclamation marks. 
-	crusherproduction = ["minecraft:cobblestone!minecraft:gravel", "minecraft:gravel!minecraft:sand", "minecraft:sand!minecraft:clay"]
 	#List of mobs Guards will target. They target all hostile mobs by default, but if a hostile mob isn't being targeted, try adding it here. 
 	guardresourcelocations = ["minecraft:slime", "tconstruct:blueslime"]
-	#Offset for the maximum durability unenchanted rod a T2 Fishing Hut can use, compared to iron tools (250).  Thermal Foundation Iron requires +6.  T3 huts can use unenchanted rods of any durability level, so long as they can take damage at all.  Anything below -250 will only allow vanilla rods, except as allowed by T1. [Default: 6, min: -249, max: 250000]
+	#Offset for the maximum durability unenchanted rod a T2 Fishing Hut can use, compared to iron tools (250). Thermal Foundation Iron requires +6. T3 huts can use unenchanted rods of any durability level, so long as they can take damage at all. Anything below -250 will only allow vanilla rods, except as allowed by T1. [Default: 6, min: -249, max: 250000]
 	#Range: -249 ~ 250000
 	fishingroddurabilityadjustt2 = 6
-	#Offset for the maximum durability unenchanted rod a T1 Fishing Hut can use, compared to other wooden tools (59).  Vanilla rods always work, but equivalents would need +6.  Default value allows up to Thermal Foundation Silver.  Anything below -59 will only allow vanilla rods. [Default: 22, min: -58, max: 250000]
+	#Offset for the maximum durability unenchanted rod a T1 Fishing Hut can use, compared to other wooden tools (59). Vanilla rods always work, but equivalents would need +6. Default value allows up to Thermal Foundation Silver  Anything below -59 will only allow vanilla rods. [Default: 22, min: -58, max: 250000]
 	#Range: -58 ~ 250000
 	fishingroddurabilityadjustt1 = 22
 	#List of recognized and enabled tags. 

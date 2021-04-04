@@ -171,8 +171,15 @@
 		#A modifier to apply to the energy costs of every arc furnace recipe
 		#Range: 0.001 ~ 1000.0
 		energyModifier = 1.0
-		#Set this to false to disable the Arc Furnace's recycling of armors and tools
-		recycle = true
+		#The recycling functionality of the arc furnace is no longer controlled by a config option.
+		#Like all IE recipes, this is now controlled via a datapack, using the recipe file:
+		#immersiveengineering/recipes/arc_recycling_list.json
+		#To disable recycling, add that file to your datapack and fill it with the following content:
+		#{
+		#  "type": "immersiveengineering:generated_list",
+		#  "conditions": [ { "type": "forge:false" } ]
+		#}
+		recycle = ""
 		#The maximum amount of damage Graphite Electrodes can take. While the furnace is working, electrodes sustain 1 damage per tick, so this is effectively the lifetime in ticks. The default value of 96000 makes them last for 8 consecutive ingame days
 		#Range: > 1
 		electrodeDamage = 96000
@@ -446,8 +453,6 @@
 		min_y = 8
 
 [tools]
-	#Set this to true to completely disable the ore-crushing recipes with the Engineers Hammer
-	disable_hammer_crushing = false
 	#The maximum durability of the Wirecutter. Used up when cutting plates into wire.
 	#Range: > 1
 	cutter_durability = 250

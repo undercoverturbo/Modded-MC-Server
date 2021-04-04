@@ -34,6 +34,9 @@
 	#
 	#When true, allows any standard crafting recipes to be processed by Mechanical Crafters.
 	allowRegularCraftingInCrafter = true
+	#
+	#When true, allows any Druidcraft woodcutter recipes to be processed by a Mechanical Saw.
+	allowWoodcuttingOnSaw = true
 
 #
 #Parameters and abilities of Create's kinetic mechanisms
@@ -86,6 +89,18 @@
 	#Damage dealt by active Crushing Wheels.
 	#Range: > 0
 	crushingDamage = 4
+	#
+	#Amount of sail-type blocks required for a windmill to assemble successfully.
+	#Range: > 0
+	minimumWindmillSails = 8
+	#
+	#Max Distance in blocks a Weighted Ejector can throw
+	#Range: > 0
+	maxEjectorDistance = 32
+	#
+	#Time in ticks until the next item launched by an ejector scans blocks for potential collisions
+	#Range: > 10
+	ejectorScanInterval = 120
 
 	#
 	#Encased Fan
@@ -221,6 +236,7 @@
 				speedometer = 0.0
 				millstone = 4.0
 				shaft = 0.0
+				weighted_ejector = 2.0
 
 			#
 			#[in Stress Units]
@@ -332,4 +348,8 @@
 	#The Maximum Distance to an active mirror for the symmetry wand to trigger.
 	#Range: > 10
 	maxSymmetryWandRange = 50
+	#
+	#The Maximum Distance a Block placed by Create's placement assist will have to its interaction point.
+	#Range: > 3
+	placementAssistRange = 12
 

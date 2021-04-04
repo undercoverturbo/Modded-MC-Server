@@ -17,7 +17,7 @@
 	"Repair Permission Level" = 2
 
 [Enchantments]
-	#If TRUE, Mending behavior is altered so that XP orbs always repair items if possible, and the most damaged item is prioritized. This option may not work with alternative versions (overrides) of Mending.
+	#If TRUE, Mending behavior is altered so that Experience Orbs always repair items if possible, and the most damaged item is prioritized. This option may not work with alternative versions (overrides) of Mending.
 	"Improved Mending" = true
 	#If TRUE, Feather Falling will prevent Farmland from being trampled. This option will work with alternative versions (overrides) of Feather Falling.
 	"Improved Feather Falling" = true
