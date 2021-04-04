@@ -17,4 +17,7 @@
 	#Max amount of schematics to be cached on the server.
 	#Range: 0 ~ 100000
 	maxCachedSchematics = 100
+	#structurize.config.schematicblocklimit.comment
+	#Range: 1000 ~ 1000000
+	schematicBlockLimit = 100000
 
