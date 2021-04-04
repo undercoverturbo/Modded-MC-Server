@@ -21,7 +21,7 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 2.0
+			frequency = 0
 			#
 			#Range: > 0
 			minHeight = 40
@@ -32,7 +32,7 @@
 		[worldgen.v2.weathered_limestone]
 			#
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 32
 			#
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -68,7 +68,7 @@
 		[worldgen.v2.limestone]
 			#
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 32
 			#
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -86,7 +86,7 @@
 		[worldgen.v2.dolomite]
 			#
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 32
 			#
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -104,7 +104,7 @@
 		[worldgen.v2.gabbro]
 			#
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 32
 			#
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -122,7 +122,7 @@
 		[worldgen.v2.scoria]
 			#
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 32
 			#
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
