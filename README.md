@@ -5,7 +5,7 @@ Installation:<br>
     <ol type="1">
       <li>Download this repo as zip or clone it.</li>
       <li>If you downloaded it as a zip, unzip it to any folder you like.</li>
-      <li>Chack if you have enough RAM by looking inside the start.bat and editting the values</li>
+      <li>Check if you have enough RAM by looking inside the start.bat and editing the values</li>
       <li>Run start.bat</li>
     </ol>
   </li>
