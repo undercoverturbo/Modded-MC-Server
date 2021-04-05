@@ -16,3 +16,5 @@ world/*
 !world/datapacks/
 !world/serverconfig/
 crash-reports/
+backups/
+local/
