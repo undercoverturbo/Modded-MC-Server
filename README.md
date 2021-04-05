@@ -24,7 +24,8 @@ Installation:<br>
           <li>Click save!</li>
         </ol>
       </li>
-      <li>Run your forge minecraft installation once and open the mods folder, by clicking on "Mods" -> "Open mods folder" in-game. <b>Quit the game now!</b></li>
+      <li>Run your forge minecraft installation once and open the mods folder, by clicking on "Mods" -> "Open mods folder" in-game.</li>
+      <li><b>Quit the game now!</b></li>
       <li>Download this repo as zip or clone it to any folder you like. You can delete this later!</li>
       <li>If you downloaded it as a zip, unzip it to any folder you like. You can delete this later!</li>
       <li>Copy the mods from the mods folder of your download/git-clone to the mods folder of your forge installation (opened earlier)</li>
