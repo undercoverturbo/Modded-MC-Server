@@ -3,7 +3,7 @@ Installation:<br>
  <ul>
   <li>Multiplayer Server:
     <ol type="1">
-      <li>Download this repo as zip or clone itto any folder you like.</li>
+      <li>Download this repo as zip or clone it to any folder you like.</li>
       <li>If you downloaded it as a zip, unzip it to any folder you like.</li>
       <li>Check if you have enough RAM by looking inside the start.bat and editing the values</li>
       <li>Run start.bat</li>
