@@ -65,7 +65,6 @@ mods.jei.JEI.addInfo(<item:javd:portal_block>, ["Teleports to a void dimension."
 <item:javd:portal_block>.addTooltip("See JEI Info tab for more Info!");
 
 //====== Ahashic Tome ======
-//
 var completeTome = <item:akashictome:tome>.withTag(
 	{
 		"akashictome:is_morphing": 1 as byte,
@@ -245,15 +244,15 @@ var completeTome = <item:akashictome:tome>.withTag(
 	}
 );
 
-//metadata to item
+// Add metadata to item
 completeTome.setDisplayName("Complete Tome");
 completeTome.addTooltip("Contains all basic mod manuals/guides");
 mods.jei.JEI.addInfo(completeTome, ["The book of books"]);
 
-//add the full book to JEI as it's own entry
+// Add the full book to JEI as it's own entry (currently not supported!)
 //mods.jei.JEI.addItem("Complete Tome", completeTome);
 
-//1 dirt = book
+// 1 akashic tome => 1 complete akashic tome
 craftingTable.addShapeless("complete_tome", completeTome, [<item:akashictome:tome>]);
 
 // Starting item
@@ -261,7 +260,6 @@ mods.initialinventory.InvHandler.addStartingItem("akashic_tome", completeTome);
 
 
 //====== Tooltip for added books ======
-//
 var addedBooks = [
 	<item:astralsorcery:tome>, 
 	<item:theoneprobe:probenote>, 
