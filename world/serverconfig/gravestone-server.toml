@@ -8,7 +8,7 @@ remove_obituary = true
 #If this is set to true only the player that owns the grave and admins can break the grave
 only_owners_can_break = true
 #If this is set to true the ghost of the dead player will be spawned when the grave is broken
-spawn_ghost = true
+spawn_ghost = false
 #If this is set to true the ghost player will defend the player
 friendly_ghost = true
 #If this is set to true you get your items back into your inventory by sneaking on the grave

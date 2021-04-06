@@ -2,7 +2,7 @@
 #Everything to do with gameplay
 [gameplay]
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = true
+	shouldSpawnWithTinkersBook = false
 	#Blacklist of registry names for the crafting station to connect to. Mainly for compatibility.
 	craftingStationBlacklist = []
 	#If true all material variants of the different tools will be listed in creative. Set to false to only have the first found material for all tools (usually wood).
