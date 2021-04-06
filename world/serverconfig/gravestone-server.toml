@@ -1,5 +1,5 @@
 #If this is set to true you get an obituary after you died
-enable_obituary = true
+enable_obituary = false
 #The blocks that can be replaced with a grave
 #If it starts with '#' it is a tag
 replaceable_blocks = ["#gravestone:grave_replaceable"]
