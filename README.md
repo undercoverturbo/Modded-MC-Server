@@ -12,6 +12,7 @@ Installation:<br>
   <li>
     Multiplayer Client:
     <ol type="1">
+      <li>Install Minecraft Java Edition (from <a href="https://www.minecraft.net/de-de/download/alternative/" target="_blank" title="direct link">here</a>)</li>
       <li>Install Minecraft Forge 1.16.5-36.1.4 (from <a href="https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.16.5-36.1.4/forge-1.16.5-36.1.4-installer.jar" target="_blank" title="direct link">here</a>)</li>
       <li>Edit your forge profile inside the minecraft launcher
         <ol type="i">
