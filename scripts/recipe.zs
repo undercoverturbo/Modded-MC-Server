@@ -255,10 +255,6 @@ mods.jei.JEI.addInfo(completeTome, ["The book of books"]);
 // 1 akashic tome => 1 complete akashic tome
 craftingTable.addShapeless("complete_tome", completeTome, [<item:akashictome:tome>]);
 
-// Starting item
-mods.initialinventory.InvHandler.addStartingItem("akashic_tome", completeTome);
-
-
 //====== Tooltip for added books ======
 var addedBooks = [
 	<item:astralsorcery:tome>, 
@@ -275,3 +271,7 @@ var addedBooks = [
 for itemBook in addedBooks {
 	itemBook.addTooltip("Included within the \"default\" Akashic Tome handed to you at the beginning");
 }
+
+// Starting items
+mods.initialinventory.InvHandler.addStartingItem("akashic_tome", completeTome);
+mods.initialinventory.InvHandler.addStartingItem("bio_comp", <item:naturescompass:naturescompass>);
