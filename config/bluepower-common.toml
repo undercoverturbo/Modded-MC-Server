@@ -4,7 +4,7 @@
 	#Toggle blocks being generated into the world
 	[WorldGen.Tungsten]
 		#Generate Tungsten
-		generateTungsten = true
+		generateTungsten = false
 		#Tungsten Min Y
 		minTungstenY = 1
 		#Tungsten Max Y
@@ -16,7 +16,7 @@
 
 	[WorldGen.Copper]
 		#Generate Copper
-		generateCopper = true
+		generateCopper = false
 		#Copper Min Y
 		minCopperY = 35
 		#Copper Max Y
@@ -28,7 +28,7 @@
 
 	[WorldGen.Zinc]
 		#Generate Zinc
-		generateZinc = true
+		generateZinc = false
 		#Zinc Min Y
 		minZincY = 15
 		#Zinc Max Y
@@ -40,7 +40,7 @@
 
 	[WorldGen.Silver]
 		#Generate Silver
-		generateSilver = true
+		generateSilver = false
 		#Silver Min Y
 		minSilverY = 1
 		#Silver Max Y
@@ -52,7 +52,7 @@
 
 	[WorldGen.Teslatite]
 		#Generate Teslatite
-		generateTeslatite = true
+		generateTeslatite = false
 		#Teslatite Min Y
 		minTeslatiteY = 1
 		#Teslatite Max Y
@@ -64,7 +64,7 @@
 
 	[WorldGen.Ruby]
 		#Generate Ruby
-		generateRuby = true
+		generateRuby = false
 		#Ruby Min Y
 		minRubyY = 0
 		#Ruby Max Y
@@ -76,7 +76,7 @@
 
 	[WorldGen.Amethyst]
 		#Generate Amethyst
-		generateAmethyst = true
+		generateAmethyst = false
 		#Amethyst Min Y
 		minAmethystY = 0
 		#Amethyst Max Y
@@ -88,7 +88,7 @@
 
 	[WorldGen.Sapphire]
 		#Generate Sapphire
-		generateSapphire = true
+		generateSapphire = false
 		#Sapphire Min Y
 		minSapphireY = 0
 		#Sapphire Max Y
@@ -100,7 +100,7 @@
 
 	[WorldGen.GreenSapphire]
 		#Generate Green Sapphire
-		generateGreenSapphire = true
+		generateGreenSapphire = false
 		#Green Sapphire Min Y
 		minGreenSapphireY = 0
 		#Green Sapphire Max Y
@@ -128,7 +128,7 @@
 
 	[WorldGen.Marble]
 		#Generate Marble
-		generateMarble = true
+		generateMarble = false
 		#veinSizeMarble
 		veinSizeMarble = 2048
 
