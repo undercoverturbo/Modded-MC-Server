@@ -12,9 +12,9 @@
 		count = 1
 		#The maximum amount of items to hold in the internal buffer.
 		#Range: > 1
-		max = 64
+		max = 1
 		#Set to true to enable automatically pushing to inventories above this block.
-		pushes = true
+		pushes = false
 
 	#Tier: 2
 	[server.2]
@@ -26,9 +26,9 @@
 		count = 1
 		#The maximum amount of items to hold in the internal buffer.
 		#Range: > 1
-		max = 128
+		max = 64
 		#Set to true to enable automatically pushing to inventories above this block.
-		pushes = true
+		pushes =  true
 
 	#Tier: 3
 	[server.3]
@@ -40,7 +40,7 @@
 		count = 1
 		#The maximum amount of items to hold in the internal buffer.
 		#Range: > 1
-		max = 256
+		max = 128
 		#Set to true to enable automatically pushing to inventories above this block.
 		pushes = true
 
