@@ -1,1 +1,1 @@
-{"type":"bluepower:alloy_smelting","ingredients":[{"item":"xnet:controller","count":1}],"result":{"item":"minecraft:gold_ingot","count":3}}
+{"type":"bluepower:alloy_smelting","ingredients":[{"item":"logisticslasers:controller","count":1}],"result":{"item":"minecraft:gold_ingot","count":4}}
