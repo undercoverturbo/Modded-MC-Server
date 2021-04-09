@@ -1,1 +1,1 @@
-{"type":"bluepower:alloy_smelting","ingredients":[{"item":"minecraft:anvil","count":1}],"result":{"item":"minecraft:iron_ingot","count":31}}
+{"type":"bluepower:alloy_smelting","ingredients":[{"item":"cyclic:anvil","count":1}],"result":{"item":"minecraft:iron_ingot","count":27}}
