@@ -24,3 +24,4 @@ config/environmental/core/components/panels/panels.json
 config/environmental/tech/void_miner/void_miner.json
 *.bak
 server.properties
+world/datapacks/bluepower
