@@ -219,7 +219,7 @@ var completeTome = <item:akashictome:tome>.withTag(
 				Damage: 0 as short
 			},
 			tconstruct: {
-				id: "tconstruct:book" as string,
+				id: "tconstruct:materials_and_you" as string,
 				Count: 1 as byte,
 				tag: {
 					"akashictome:definedMod": "tconstruct",
@@ -264,7 +264,7 @@ var addedBooks = [
 	<item:botania:lexicon>,
 	<item:ars_nouveau:worn_notebook>,
 	<item:rftoolsbase:manual>,
-	<item:tconstruct:book>,
+	<item:tconstruct:materials_and_you>,
 	<item:integrateddynamics:on_the_dynamics_of_integration>
 	] as IItemStack[];
 
