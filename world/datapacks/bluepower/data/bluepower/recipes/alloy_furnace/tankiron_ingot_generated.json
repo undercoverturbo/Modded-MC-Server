@@ -1,1 +1,1 @@
-{"type":"bluepower:alloy_smelting","ingredients":[{"item":"rftoolscontrol:tank","count":1}],"result":{"item":"minecraft:iron_ingot","count":4}}
+{"type":"bluepower:alloy_smelting","ingredients":[{"item":"cyclic:tank","count":1}],"result":{"item":"minecraft:iron_ingot","count":4}}

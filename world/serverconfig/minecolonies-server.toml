@@ -135,8 +135,8 @@
 	restrictcolonyplacement = false
 	#Should officers of a colony receive advancements from that colony? [Default: true]
 	officersreceiveadvancements = true
-	#Initial claim size for a colony. This is the radius, measured in chunks. [Default: 4, min: 1, max: 200]
-	#Range: 1 ~ 200
+	#Initial claim size for a colony. This is the radius, measured in chunks. [Default: 4, min: 1, max: 15]
+	#Range: 1 ~ 15
 	initialColonySize = 4
 	#Maximum claim range for a colony. This is the radius, measured in chunks. [Default: 20, min: 1, max: 50]
 	#Range: 1 ~ 50
