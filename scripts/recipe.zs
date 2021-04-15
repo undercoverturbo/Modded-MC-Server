@@ -216,17 +216,6 @@ var completeTome = <item:akashictome:tome>.withTag(
 				},
 				Damage: 0 as short
 			},
-			tconstruct: {
-				id: "tconstruct:materials_and_you" as string,
-				Count: 1 as byte,
-				tag: {
-					"akashictome:definedMod": "tconstruct",
-					"akashictome:displayName": {text: "Materials and You" as string},
-					"akashictome:is_morphing": 1 as byte,
-					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Materials and You\"}]}" as string}
-				},
-				Damage: 0 as short
-			},
 			integratedtunnels: {
 				id: "integrateddynamics:on_the_dynamics_of_integration" as string,
 				Count: 1 as byte,
@@ -237,6 +226,86 @@ var completeTome = <item:akashictome:tome>.withTag(
 					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"On the Dynamics of Integration\"}]}" as string}
 				},
 				Damage: 0 as short
+			},
+			tconstruct: {
+				id: "tconstruct:materials_and_you" as string,
+				Count: 1 as byte,
+				tag: {
+					"akashictome:displayName": {text: "Materials and You" as string},
+					"akashictome:is_morphing": 1 as byte,
+					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Materials and You\"}]}" as string}
+				},
+				Damage: 0 as short
+			},
+			tconstruct_1: {
+				id: "tconstruct:puny_smelting" as string,
+				Count: 1 as byte,
+				tag: {
+					mantle: {book: {current_page: "" as string}},
+					"akashictome:displayName": {text: "Puny Smelting" as string},
+					"akashictome:is_morphing": 1 as byte,
+					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Puny Smelting\"}]}" as string}
+				}
+			},
+			tconstruct_2: {
+				id: "tconstruct:mighty_smelting" as string,
+				Count: 1 as byte,
+				tag: {
+					mantle: {book: {current_page: "" as string}},
+					"akashictome:displayName": {text: "Mighty Smelting" as string},
+					"akashictome:is_morphing": 1 as byte,
+					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Mighty Smelting\"}]}" as string}
+				}
+			},
+			tconstruct_3: {
+				id: "tconstruct:tinkers_gadgetry" as string,
+				Count: 1 as byte,
+				tag: {
+					mantle: {book: {current_page: "" as string}},
+					"akashictome:displayName": {text: "Tinker's Gadgetry" as string},
+					"akashictome:is_morphing": 1 as byte,
+					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Tinker's Gadgetry\"}]}" as string}
+				}
+			},
+			cookingforblockheads: {
+				id: "cookingforblockheads:no_filter_edition" as string,
+				Count: 1 as byte,
+				tag: {
+					"akashictome:displayName": {text: "Cooking for Blockheads" as string},
+					"akashictome:is_morphing": 1 as byte,
+					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Cooking for Blockheads\"}]}" as string}
+				},
+				Damage: 0 as short
+			},
+			cookingforblockheads_1: {
+				id: "cookingforblockheads:recipe_book" as string,
+				Count: 1 as byte,
+				tag: {
+					"akashictome:displayName": {text: "Cooking for Blockheads I" as string},
+					"akashictome:is_morphing": 1 as byte,
+					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Cooking for Blockheads I\"}]}" as string}
+				},
+				Damage: 0 as short
+			},
+			cookingforblockheads_2: {
+				id: "cookingforblockheads:crafting_book" as string,
+				Count: 1 as byte,
+				tag: {
+					"akashictome:displayName": {text: "Cooking for Blockheads II" as string},
+					"akashictome:is_morphing": 1 as byte,
+					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Cooking for Blockheads II\"}]}" as string}
+					},
+				Damage: 0 as short
+			},
+			powah: {
+				id: "powah:book" as string,
+				Count: 1 as byte,
+				tag: {
+					"akashictome:definedMod": "powah",
+					"akashictome:displayName": {text: "Manual (Powah!)" as string},
+					"akashictome:is_morphing": 1 as byte,
+					display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Manual (Powah!)\"}]}" as string}
+				}
 			}
 		}
 	}
@@ -263,7 +332,14 @@ var addedBooks = [
 	<item:ars_nouveau:worn_notebook>,
 	<item:rftoolsbase:manual>,
 	<item:tconstruct:materials_and_you>,
-	<item:integrateddynamics:on_the_dynamics_of_integration>
+	<item:integrateddynamics:on_the_dynamics_of_integration>,
+	<item:tconstruct:puny_smelting>,
+	<item:tconstruct:mighty_smelting>,
+	<item:tconstruct:tinkers_gadgetry>,
+	<item:cookingforblockheads:no_filter_edition>,
+	<item:cookingforblockheads:recipe_book>,
+	<item:cookingforblockheads:crafting_book>,
+	<item:powah:book>
 	] as IItemStack[];
 
 for itemBook in addedBooks {
@@ -300,3 +376,6 @@ craftingTable.addShaped("new_mekanism_basic_logistical_transporter_meka", <item:
 	[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air> ],
 	[<tag:items:forge:ingots/steel>, <item:minecraft:chest>, <tag:items:forge:ingots/steel>],
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+craftingTable.addShapeless("uranium_uranite", <item:powah:uraninite>, [<tag:items:forge:ingots/uranium>, <tag:items:forge:ingots/uranium>, <tag:items:forge:ingots/uranium>, <tag:items:forge:ingots/uranium>] );
+craftingTable.addShapeless("uranite_uranium", <item:mekanism:ingot_uranium> * 4, [<item:powah:uraninite>] );
