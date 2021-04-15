@@ -29,8 +29,6 @@ craftingTable.addShaped("new_teleporter", <item:mining_dimension:teleporter>,
 	[<item:minecraft:obsidian>, <item:mekanismtools:netherite_paxel>.anyDamage().transformDamage(), <item:minecraft:obsidian>],
 	[<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]]);
 
-//mods.jei.JEI.hideItem(<item:minecraft:dirt>);
-
 // Adds important info about modded portal desyncs
 mods.jei.JEI.addInfo(<item:mining_dimension:teleporter>, ["Teleports to a late-game mining dimension for manual mining.",
 	"Spawns more ore ores than usual, since you are mining manually!",
@@ -275,3 +273,30 @@ for itemBook in addedBooks {
 // Starting items
 mods.initialinventory.InvHandler.addStartingItem("akashic_tome", completeTome);
 mods.initialinventory.InvHandler.addStartingItem("bio_comp", <item:naturescompass:naturescompass>);
+
+// Remove cyclics emerald tools and armor
+mods.jei.JEI.hideItem(<item:cyclic:emerald_sword>);
+craftingTable.removeRecipe(<item:cyclic:emerald_sword>);
+mods.jei.JEI.hideItem(<item:cyclic:emerald_pickaxe>);
+craftingTable.removeRecipe(<item:cyclic:emerald_pickaxe>);
+mods.jei.JEI.hideItem(<item:cyclic:emerald_axe>);
+craftingTable.removeRecipe(<item:cyclic:emerald_axe>);
+mods.jei.JEI.hideItem(<item:cyclic:emerald_shovel>);
+craftingTable.removeRecipe(<item:cyclic:emerald_shovel>);
+mods.jei.JEI.hideItem(<item:cyclic:emerald_hoe>);
+craftingTable.removeRecipe(<item:cyclic:emerald_hoe>);
+mods.jei.JEI.hideItem(<item:cyclic:emerald_boots>);
+craftingTable.removeRecipe(<item:cyclic:emerald_boots>);
+mods.jei.JEI.hideItem(<item:cyclic:emerald_helmet>);
+craftingTable.removeRecipe(<item:cyclic:emerald_helmet>);
+mods.jei.JEI.hideItem(<item:cyclic:emerald_chestplate>);
+craftingTable.removeRecipe(<item:cyclic:emerald_chestplate>);
+mods.jei.JEI.hideItem(<item:cyclic:emerald_leggings>);
+craftingTable.removeRecipe(<item:cyclic:emerald_leggings>);
+
+// Make Mekanism's logistics pipes available to the early game
+craftingTable.removeRecipe(<item:mekanism:basic_logistical_transporter>);
+craftingTable.addShaped("new_mekanism_basic_logistical_transporter_meka", <item:mekanism:basic_logistical_transporter>,
+	[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air> ],
+	[<tag:items:forge:ingots/steel>, <item:minecraft:chest>, <tag:items:forge:ingots/steel>],
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
