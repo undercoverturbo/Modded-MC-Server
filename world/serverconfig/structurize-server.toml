@@ -11,7 +11,7 @@
 	#Max world operations per tick (max blocks to place, remove, or replace).
 	#Range: 0 ~ 100000
 	maxOperationsPerTick = 1000
-	#Max amount of blocks checked by a possible worker
+	#Ma, ModRecipeProvider.getDefaultCriterion(block)x amount of blocks checked by a possible worker
 	#Range: 0 ~ 100000
 	maxBlocksChecked = 1000
 	#Max amount of schematics to be cached on the server.
