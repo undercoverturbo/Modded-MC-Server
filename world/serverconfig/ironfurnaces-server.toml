@@ -78,9 +78,9 @@
 		#Range: 1 ~ 500
 		value = 10
 		# This value indicates when the furnace should 'overload' and spit out the xp stored. 
-		# Default: 100000, Single recipe uses
+		# Default: 10000, Single recipe uses
 		#Range: 1 ~ 1000000
-		value_two = 100000
+		value_two = 10000
 
 #Modded Furnace Settings
 [modded_furnaces]
